@@ -2,9 +2,10 @@ public class DrivingLicense {
 
     public static void main(String[] args) {
         //inicializar una variable (del tipo que veas conveniente) que contenga los puntos del carnet de conducir que empiece con 0 puntos.
-
-        System.out.println("Has sacado tu carnet de conducir, felicidades tienes 12 puntos");
+        String carnet = 12;
+        System.out.println( "Has sacado tu carnet de conducir, felicidades tienes 12 puntos" + carnet );
         // Actualiza los puntos aquí
+
 
         System.out.println("Te has negado a realizar pruebas de alcohol o drogas, pierdes 6 puntos");
         // Actualiza los puntos aquí

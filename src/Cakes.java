@@ -24,16 +24,18 @@ public class Cakes {
 
         //Convierte double a int
         //Escribe aquí tu código
-        int IntValue = 1.5;
+        int intValue = 25;
         System.out.println("Valor convertido de double a int: " + intValue );
 
         //Declara y asigna un valor a una variable int
         //Escribe aquí tu código
-        System.out.println("Valor original de int: <anotherIntValue>");
+        int anotherIntValue = 5;
+        System.out.println("Valor original de int: " + anotherIntValue );
 
         //Convierte int a double
         //Escribe aquí tu código
-        System.out.println("Valor convertido de int a double: <anotherDoubleValue>");
+        double anotherDoubleValue = 1.5;
+        System.out.println("Valor convertido de int a double: "  + anotherDoubleValue );
                
     }
 }
