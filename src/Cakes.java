@@ -8,8 +8,8 @@ public class Cakes {
         //Para que el resultado cambie de tipo usamos "type casting" y se hace agregando entre paréntesis lo que queremos convertir
         
         //Corre el siguiente código
-        double cake = 1;
-        double people = 5;
+        int cake = 1;
+        int people = 5;
         System.out.println("Cada persona se lleva " + ((double)cake / people) + " partes de pastel");
         //El resultado obtenido es de tipo double.
         
@@ -20,12 +20,12 @@ public class Cakes {
         //Escribe aquí tu código
         double doubleValue = 2.5;
 
-        System.out.println("Valor original de double: " + doubleValue );
+        System.out.println("Valor original de double: " + (int)doubleValue );
 
         //Convierte double a int
         //Escribe aquí tu código
-        int intValue = 25;
-        System.out.println("Valor convertido de double a int: " + intValue );
+        int intValue = 252;
+        System.out.println("Valor convertido de double a int: " + (double)intValue );
 
         //Declara y asigna un valor a una variable int
         //Escribe aquí tu código
@@ -34,8 +34,8 @@ public class Cakes {
 
         //Convierte int a double
         //Escribe aquí tu código
-        double anotherDoubleValue = 1.5;
-        System.out.println("Valor convertido de int a double: "  + anotherDoubleValue );
+        int anotherDoubleValue = 15;
+        System.out.println("Valor convertido de int a double: "  + (double)anotherDoubleValue );
                
     }
 }
